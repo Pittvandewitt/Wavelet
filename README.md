@@ -1,4 +1,4 @@
-# Wavelet readme
+# Wavelet
 
 ## Compatible mode
 
@@ -35,6 +35,14 @@ Reverberation adds the effect of a sound bouncing of the wall from a room you wo
 Virtualization is the effect of spatializing audio channels. This effect will widen the stereo image (when listening in stereo).
 
 - __Strength__ determines the effect strength.
+
+## Bass tuner
+
+Bass tuner allows you to set a very precise bass boost or reduction. This can be useful if your speaker system has a resonant peak in the lower frequencies or a point where long soundwaves cancel eachother out.
+
+- __Cutoff frequency__ determines until what frequency the sound is processed.
+
+- __Post-gain__ sets the gain to compensate for. This value can either be negative or positive.
 
 ## Limiter
 
