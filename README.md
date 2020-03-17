@@ -38,7 +38,7 @@ Virtualization is the effect of spatializing audio channels. This effect will wi
 
 ## Bass tuner
 
-Bass tuner allows you to set a very precise bass boost or reduction. This can be useful if your speaker system has a resonant peak in the lower frequencies or a point where long soundwaves cancel eachother out.
+Bass tuner allows you to set a very precise bass boost or reduction. This can be useful if your speaker system has a resonant peak in the lower frequencies or a point where long soundwaves cancel each other out.
 
 - __Cutoff frequency__ determines until what frequency the sound is processed.
 
