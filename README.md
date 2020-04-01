@@ -2,8 +2,8 @@
 
 ## Legacy mode
 
-Legacy mode is turned off by default, because effects will become available whenever a compatible music application starts an audio session while Wavelet is running. If no effects show up while you're playing music, you can try enabling legacy mode and see if Wavelet will process your music in this mode.  
-Spotify, YT music, Shuttle, Phonograph and Google Play Music open audio sessions, thus effects in Wavelet will show up.
+Legacy mode is turned off by default, because features will become available whenever a compatible music application starts an audio session while Wavelet is running. If no features show up while you're playing music, you can try enabling legacy mode and see if Wavelet will process your music in this mode.  
+Spotify, YT music, Shuttle, Phonograph and Google Play Music open audio sessions, thus features in Wavelet will show up.
 Tidal, YouTube, Soundcloud, Qobuz, Neutron, PowerAmp and most music apps that came preinstalled on your phone might work in legacy mode, depending on your device manufacturer's audio framework implementation.  
 You will have to experiment with legacy mode and see what works best.
 
