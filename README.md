@@ -1,10 +1,11 @@
-# Wavelet
+#  Wavelet
 
-## Compatible mode
+## Legacy mode
 
-Compatible mode is turned on by default. Features will become available whenever a compatible music application starts a session while Wavelet is running. You can try toggling the compatible mode checkbox and see if your music player works in legacy mode. You will have to experiment with this to see what works best.
-A few apps that work in compatible mode are Spotify, YT music, Shuttle, Phonograph and Google Play Music.
-Tidal, YouTube, Soundcloud, Qobuz, Neutron, PowerAmp and most music apps that came preinstalled on your phone might work in legacy mode, depending on your device manufacturer's audio framework implementation.
+Legacy mode is turned off by default, because effects will become available whenever a compatible music application starts an audio session while Wavelet is running. If no effects show up while you're playing music, you can try enabling legacy mode and see if Wavelet will process your music in this mode.  
+Spotify, YT music, Shuttle, Phonograph and Google Play Music open audio sessions, thus effects in Wavelet will show up.
+Tidal, YouTube, Soundcloud, Qobuz, Neutron, PowerAmp and most music apps that came preinstalled on your phone might work in legacy mode, depending on your device manufacturer's audio framework implementation.  
+You will have to experiment with legacy mode and see what works best.
 
 ## AutoEq
 
@@ -16,7 +17,7 @@ The [AutoEq](https://github.com/jaakkopasanen/AutoEq) feature contains precalcul
 
 The graphic equalizer consists of 9 bands. You can set each slider independently to change the balance in frequency response or to remove obvious imbalance issues. You can also use this feature to compensate the frequency response of your speakers or your headphones if they're are not listed in the AutoEq section, or if you would like to add some coloration to your audio stream.
 
-- __Presets__ contains a few presets for a given set of music genres. The first entry will reset all bands to stock.
+- __Presets__ contains a few presets for a given set of sound signatures. The first entry will reset all bands to stock.
 
 ## Bass boost
 
