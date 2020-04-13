@@ -9,7 +9,7 @@ You will have to experiment with legacy mode and see what works best.
 
 ## AutoEq
 
-The [AutoEq](https://github.com/jaakkopasanen/AutoEq) feature contains precalculated results from jaakkopasanen's great work. Over 2400 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
+The [AutoEq](https://github.com/jaakkopasanen/AutoEq) feature contains precalculated results from jaakkopasanen's great work. Over 2300 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
 
 - __Headphone model__ lets you search the database or view your previously selected headphones. Tap the search icon next to the title to add new listings or tap the x icon to remove an item if you selected the wrong one. *Make sure to only use the entry that is meant for your headphone model*.
 
