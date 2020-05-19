@@ -7,6 +7,10 @@ Spotify, YT music, Shuttle, Phonograph and Google Play Music open audio sessions
 Tidal, YouTube, Soundcloud, Qobuz, Neutron, VLC, foobar2000, PowerAmp (with Direct Volume Control disabled) and most music apps that came preinstalled on your phone might work in legacy mode, depending on your device manufacturer's audio framework implementation.  
 You will have to experiment with legacy mode and see what works best.
 
+## Reduce clipping
+
+By enabling clipping reduction, you allow Wavelet to process audio in a bigger time frame (150 vs 22ms) This reduces clipping at cost of increased latency. Recommended when listening to music but not when watching videos.
+
 ## AutoEq
 
 The [AutoEq](https://github.com/jaakkopasanen/AutoEq) feature contains precalculated results from jaakkopasanen's great work. Over 2300 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
