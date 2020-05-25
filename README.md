@@ -3,8 +3,8 @@
 ## Legacy mode
 
 Legacy mode is turned off by default, because features will become available whenever a compatible music application starts an audio session while Wavelet is running. If no features show up while you're playing music, you can try enabling legacy mode and see if Wavelet will process your music in this mode.  
-Spotify, YT music, Shuttle, Phonograph and Google Play Music open audio sessions, thus features in Wavelet will show up.
-Tidal, YouTube, Soundcloud, Qobuz, Neutron, VLC, foobar2000, PowerAmp (with Direct Volume Control disabled) and most music apps that came preinstalled on your phone might work in legacy mode, depending on your device manufacturer's audio framework implementation.  
+Spotify, YT music, Shuttle, Phonograph and Google Play Music open audio sessions, thus features in Wavelet will show up. Poweramp will work in default mode too if you enable musicFX in Audio engine - Advanced Tweaks and then enable MusicFX on the middle page in the equalization settings.
+Tidal, YouTube, Soundcloud, Qobuz, Neutron, VLC, foobar2000 and most music apps that came preinstalled on your phone might work in legacy mode, depending on your device manufacturer's audio framework implementation.  
 You will have to experiment with legacy mode and see what works best.
 
 ## Reduce clipping
