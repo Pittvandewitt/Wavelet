@@ -10,13 +10,15 @@ You will have to experiment with legacy mode and see what works best.
 
 ## Reduce clipping
 
-By enabling clipping reduction, you allow Wavelet to process audio in a bigger time frame (150 vs 22ms) This reduces clipping at cost of increased latency. Recommended when listening to music but not when watching videos.
+By enabling clipping reduction, you allow Wavelet to process audio in a bigger time frame (220 vs 22ms) This reduces clipping at cost of increased latency. Recommended when listening to music but not when watching videos.
 
 ## AutoEq
 
 The [AutoEq](https://github.com/jaakkopasanen/AutoEq) feature contains precalculated results from jaakkopasanen's great work. Over 2300 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
 
 - __Headphone model__ lets you search the database or view your previously selected headphones. Tap the search icon next to the title to add new listings or tap the x icon to remove an item if you selected the wrong one. *Make sure to only use the entry that is meant for your headphone model*.
+
+- __Import__ Allows you to load custom generated AutoEq data. Instructions can be found [here](https://pittvandewitt.github.io/Wavelet/Import).
 
 ## Graphic equalizer
 
@@ -45,6 +47,8 @@ Virtualization is the effect of spatializing audio channels. This effect will wi
 ## Bass tuner
 
 Bass tuner allows you to set a very precise bass boost or reduction. This can be useful if your speaker system has a resonant peak in the lower frequencies or a point where long soundwaves cancel each other out.
+
+- __Bass type__ Allows you to choose between natural, transient compressor and sustain compressor types. The transient compressor adds the possibility to increase or decrease the initial bass punch. The sustain compressor preserves the transient and is able to increase or reduce the rumble. This can be used to reduce resonance without compromising the initial kick or to make balanced armature drivers sound less anemic.
 
 - __Cutoff frequency__ determines until what frequency the sound is processed.
 
