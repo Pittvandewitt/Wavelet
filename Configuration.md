@@ -15,6 +15,10 @@ Some music players require additional configuration to support audio processing.
 - Press the 3-dots menu in the upper right corner and open Settings - Audio
 - Press Equalizer to use and choose the second option: 'System Equalizer' 
 
+## BlackPlayer
+- Press the hamburger menu and open settings
+- Press Audio - Select Equalizer and select Default Equalizer
+
 ## Deezer
 - Play some music
 - In the bottom left corner, open sound settings
