@@ -1,5 +1,7 @@
 #  Wavelet
 
+## [Troubleshooting](https://pittvandewitt.github.io/Wavelet/Troubleshooting)
+
 ## Legacy mode
 
 Legacy mode is turned off by default, because features will become available in Wavelet whenever an application notifies the operating system about music playback starting by sending a broadcast.  
