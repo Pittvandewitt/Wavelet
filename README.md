@@ -10,11 +10,11 @@ You will have to experiment with legacy mode and see what works best.
 
 ## Reduce clipping
 
-By enabling clipping reduction, you allow Wavelet to process audio in a bigger time frame (220 vs 22ms) This reduces clipping at cost of increased latency. Recommended when listening to music but not when watching videos.
+By enabling clipping reduction, you allow Wavelet to process audio in a bigger time frame (170 vs 22ms) This reduces clipping at cost of increased latency. Recommended when listening to music but not when watching videos.
 
 ## AutoEq
 
-The [AutoEq](https://github.com/jaakkopasanen/AutoEq) feature contains precalculated results from jaakkopasanen's great work. Over 2300 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
+The [AutoEq](https://github.com/jaakkopasanen/AutoEq) feature contains precalculated results from jaakkopasanen's great work. Over 2500 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
 
 - __Headphone model__ lets you search the database or view your previously selected headphones. Tap the search icon next to the title to add new listings or tap the x icon to remove an item if you selected the wrong one. *Make sure to only use the entry that is meant for your headphone model*.
 
