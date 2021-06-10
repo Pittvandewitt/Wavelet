@@ -7,48 +7,35 @@
 Legacy mode is turned off by default, because features will become available in Wavelet whenever an application notifies the operating system about music playback starting by sending a broadcast.  Many music players send a broadcast, thus features in Wavelet will show up.  Other music players do not send a broadcast. Therefore no features will show up. You can try enabling legacy mode and see if your device allows Wavelet to process your music in this mode. Legacy might work, depending on your device manufacturer's audio framework implementation.  
 You will have to experiment with legacy mode and see what works best.
 
-List of players that support sending a broadcast:
-* [Google Play Music](https://play.google.com/store/apps/details?id=com.google.android.music): 
-  Supported :heavy_check_mark:
-* [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music): 
-  Supported :heavy_check_mark:
-* [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music): 
-  Supported :heavy_check_mark:
-* [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music): 
-  Supported :heavy_check_mark:
-* [Phonograph Music Player](https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone):
-  Supported :heavy_check_mark:
-* [Shuttle Music Player](https://play.google.com/store/apps/details?id=another.music.player):
-  Supported :heavy_check_mark:
-* [Music Player - MP3 Player, Audio Player](https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player):
-  Supported :heavy_check_mark:
-* [Poweramp](https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer):
-Supported, requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration) :heavy_check_mark:
-* [Neutron](https://play.google.com/store/apps/details?id=com.neutroncode.mp):
-Supported, requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration) :heavy_check_mark:
-* [Musicolet](https://play.google.com/store/apps/details?id=in.krosbits.musicolet):
-Supported, requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration) :heavy_check_mark:
-* [BlackPlayer](https://play.google.com/store/apps/details?id=com.musicplayer.blackplayerfree):
-Supported, requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration) :heavy_check_mark:
-* [Deezer](https://play.google.com/store/apps/details?id=deezer.android.app):
-Supported, requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration) :heavy_check_mark:
-* [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal):
-  Not supported, issue filed :wrench:
-* [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android):
-  Not supported, [issue filed](https://help.soundcloud.com/requests/483626/) :wrench:
-* [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc):
-  Not supported, [issue filed](https://code.videolan.org/videolan/vlc/-/issues/18254) :wrench:
-* [Amazon Music](https://play.google.com/store/apps/details?id=com.amazon.mp3):
-  Not supported :x:
-* [Pulsar Music Player](https://play.google.com/store/apps/details?id=com.rhmsoft.pulsar):
-  Not supported :x:
-* [Pocket Cast](https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts):
-  Not supported :x:
-* [Stream YouTube Player](https://play.google.com/store/apps/details?id=com.djit.apps.stream):
-  Not supported :x:
-* [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube):
-  Not supported :x:
-* Pandora, Qobuz, Plexamp, foobar2000 and most music applications that came preinstalled on your phone: Not supported :x:
+:heavy_check_mark: List of players with support for audio processing:
+* [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
+* [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music)
+* [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music)
+* [Phonograph Music Player](https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone)
+* [Shuttle Music Player](https://play.google.com/store/apps/details?id=another.music.player)
+* [Music Player - MP3 Player, Audio Player](https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player)
+* [Samsung Music](https://play.google.com/store/apps/details?id=com.sec.android.app.music)
+* [Google Play Music](https://play.google.com/store/apps/details?id=com.google.android.music)
+* [Poweramp](https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#Poweramp))
+* [Neutron](https://play.google.com/store/apps/details?id=com.neutroncode.mp) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#Neutron))
+* [Musicolet](https://play.google.com/store/apps/details?id=in.krosbits.musicolet) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#Musicolet))
+* [BlackPlayer](https://play.google.com/store/apps/details?id=com.musicplayer.blackplayerfree) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#BlackPlayer))
+* [Deezer](https://play.google.com/store/apps/details?id=deezer.android.app) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#Deezer))
+
+:x: List of players lacking support for audio processing:
+* [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal) (issue filed)
+* [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android) ([issue filed](https://help.soundcloud.com/requests/483626/))
+* [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc) ([issue filed](https://code.videolan.org/videolan/vlc/-/issues/18254))
+* [Amazon Music](https://play.google.com/store/apps/details?id=com.amazon.mp3)
+* [Pulsar Music Player](https://play.google.com/store/apps/details?id=com.rhmsoft.pulsar)
+* [Pocket Cast](https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts)
+* [Stream YouTube Player](https://play.google.com/store/apps/details?id=com.djit.apps.stream)
+* [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube)
+* [Pandora](https://play.google.com/store/apps/details?id=com.pandora.android)
+* [Qobuz](https://play.google.com/store/apps/details?id=com.qobuz.music)
+* [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
+* [foobar2000](https://play.google.com/store/apps/details?id=com.foobar2000.foobar2000)
+* Most music applications that came preinstalled on your device
 
 ## Reduce clipping
 
