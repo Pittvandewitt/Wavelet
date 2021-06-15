@@ -27,6 +27,7 @@ Wavelet will often not function as expected if other equalizer/hearing aid appli
 - Sound assistant on some Samsung devices
 - AudioFX on LineageOS
 - 3rd party equalizer applications installed from the Play Store
+
 Freezing or uninstalling the offending application + rebooting your device will resolve issues caused by this.
 
 [Navigate to homepage](https://pittvandewitt.github.io/Wavelet/)

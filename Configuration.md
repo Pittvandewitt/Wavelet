@@ -24,6 +24,17 @@ Some music players require additional configuration to support audio processing.
 - In the bottom left corner, open sound settings
 - Under the Equalizer category, enable 'Activate' and press OK
 
+## VLC
+- Select the 'More' tab in the bottom navigation
+- Press Settings in the top left corner
+- Under extra settings, press 'Audio' - Audio output
+- Select AudioTrack
+
+## Plexamp
+- Select the settings tab in the bottom navigation
+- Press Advanced - Audio Interface
+- Select AAudio
+
 This list is exhaustive. Suggestions are welcome.
 
 [Navigate to homepage](https://pittvandewitt.github.io/Wavelet/)
