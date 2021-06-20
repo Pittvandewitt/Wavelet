@@ -44,14 +44,14 @@ If you choose to activate enhanced session detection, Wavelet will actively list
 
 Instructions to activate enhanced session detection:
 
-- Activate developer options and enable USB debugging on your device as instructed here https://developer.android.com/studio/debug/dev-options.html#enable
+- Activate developer options and enable USB debugging on your device as instructed on [https://developer.android.com/studio/debug/dev-options](https://developer.android.com/studio/debug/dev-options.html#enable)
 - Connect your device with a computer.
-- Open Chrome on your computer, browse to https://app.webadb.com/#/shell
+- Open Chrome on your computer, browse to [https://app.webadb.com/#/shell](https://app.webadb.com/#/shell)
 and add and connect your device.
 - Run the following command in the shell: `pm grant com.pittvandewitt.wavelet android.permission.DUMP`
 - Go to notification listener access and enable the permission for Wavelet
 
-If you wish to switch back to the other modes, you can do so by disabling notification listener access for Wavelet and/or by running `pm revoke com.pittvandewitt.wavelet android.permission.DUMP`.
+If you wish to switch back to the old behaviour, you can do so by disabling notification listener access for Wavelet and/or by running `pm revoke com.pittvandewitt.wavelet android.permission.DUMP`.
 
 ## Buffer size
 
