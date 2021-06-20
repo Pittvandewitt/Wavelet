@@ -37,9 +37,27 @@ You will have to experiment with legacy mode and see what works best.
 * [foobar2000](https://play.google.com/store/apps/details?id=com.foobar2000.foobar2000)
 * Most music applications that came preinstalled on your device
 
-## Reduce clipping
+## Enhanced session detection
 
-By enabling clipping reduction, you allow Wavelet to process audio in a bigger time frame (170 vs 22ms) This reduces clipping at cost of increased latency. Recommended when listening to music but not when watching videos.
+**Disclaimer:** Enhanced session detection is experimental and available only for Android 10 and up.  
+If you choose to activate enhanced session detection, Wavelet will actively listen for music sessions instead of relying on being notified when a session starts. The DUMP permission is required to allow Wavelet to filter the required information from the device system services needed to attach and release audio effects to audio sessions. The advantage of enhanced session detection is that there is no need to depend on other applications opening and closing their audio sessions properly, which means it should work properly with every media session.
+
+Instructions to activate enhanced session detection:
+
+- Activate developer options and enable USB debugging on your device as instructed here https://developer.android.com/studio/debug/dev-options.html#enable
+- Connect your device with a computer.
+- Open Chrome on your computer, browse to https://app.webadb.com/#/shell
+and add and connect your device.
+- Run the following command in the shell: `pm grant com.pittvandewitt.wavelet android.permission.DUMP`
+- Go to notification listener access and enable the permission for Wavelet
+
+If you wish to switch back to the other modes, you can do so by disabling notification listener access for Wavelet and/or by running `pm revoke com.pittvandewitt.wavelet android.permission.DUMP`.
+
+## Buffer size
+
+Buffer size allows for setting the audio processing precision. A low buffer size corresponds to less precision and lower latency. A high buffer size corresponds to better precision and higher latency.  
+A low buffer size is recommended when watching videos but not when listening to music.  
+*On Android 9 it is recommended to max out buffer size, to minimize clipping issues in the lower frequencies*
 
 ## AutoEq
 
