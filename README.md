@@ -15,6 +15,7 @@ You will have to experiment with legacy mode and see what works best.
 * [Shuttle Music Player](https://play.google.com/store/apps/details?id=another.music.player)
 * [Samsung Music](https://play.google.com/store/apps/details?id=com.sec.android.app.music)
 * [Google Play Music](https://play.google.com/store/apps/details?id=com.google.android.music)
+* [Just (Video) Player](https://play.google.com/store/apps/details?id=com.brouken.player)
 * [Poweramp](https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#poweramp))
 * [Neutron](https://play.google.com/store/apps/details?id=com.neutroncode.mp) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#neutron))
 * [Musicolet](https://play.google.com/store/apps/details?id=in.krosbits.musicolet) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#musicolet))
