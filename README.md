@@ -16,6 +16,7 @@ You will have to experiment with legacy mode and see what works best.
 * [Samsung Music](https://play.google.com/store/apps/details?id=com.sec.android.app.music)
 * [Google Play Music](https://play.google.com/store/apps/details?id=com.google.android.music)
 * [Just (Video) Player](https://play.google.com/store/apps/details?id=com.brouken.player)
+* [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict)
 * [Poweramp](https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#poweramp))
 * [Neutron](https://play.google.com/store/apps/details?id=com.neutroncode.mp) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#neutron))
 * [Musicolet](https://play.google.com/store/apps/details?id=in.krosbits.musicolet) (requires [additional configuration](https://pittvandewitt.github.io/Wavelet/Configuration#musicolet))
@@ -78,13 +79,13 @@ The graphic equalizer consists of 9 bands. You can set each slider independently
 
 ## Bass boost
 
-Bass boost amplifies the lower frequencies.
+Bass boost is available on Android 9 exclusively. It amplifies the lower frequencies.
 
 - __Bass boost strength__ lets you set the strength.
 
 ## Reverberation
 
-Reverberation adds the effect of a sound bouncing of the wall from a room you would be listening in.
+Reverberation is available if legacy mode is disabled. It adds the effect of a sound bouncing of the wall from a room you would be listening in.
 
 - __Preset__ lets you choose the room size.
 
