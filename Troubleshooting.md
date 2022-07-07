@@ -1,5 +1,9 @@
 # Troubleshooting
 
+## In-app purchase no longer available
+The in-app purchase is for one time only and will stay valid. In case your purchase is not detected by Wavelet, you are adviced to clear Play Store data by going to your system settings - apps. Your purchase will reload and be made available to Wavelet again after you reboot your device.
+
+
 ## Headphone model not listed in AutoEq
 All data included in Wavelet comes from the AutoEq project which takes its data from external sources. If none of the sources have measured a particular headphone model, the model cannot be included in AutoEq.  
 If you were able to find a frequency response measurement of your headphones, you can try to create compensation data by following the instructions provided [here](https://pittvandewitt.github.io/Wavelet/Import).
@@ -17,9 +21,6 @@ Unfortunately no solution is known for external DACs.
 
 ## Clipping issues on your Samsung device
 Some Samsung devices have a UHQ upscaler in the 'Sound quality and effects' system settings. Change the UHQ upscaler to Bit upscaling only to avoid clipping issues.
-
-## ChromeOS
-It is not possible to detect a connected headphone in the Android subsystem on ChromeOS. Fortunately it is possible to mimick a headphone connection using [LesserAudioSwitch](https://play.google.com/store/apps/details?id=com.nordskog.LesserAudioSwitch). The app states it does not work on Android 11 and up, but a different solution is provided in the description.
 
 
 ## Other
