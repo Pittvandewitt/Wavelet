@@ -10,6 +10,7 @@ You will have to experiment with legacy mode and see what works best.
 :heavy_check_mark: List of players with support for audio processing:
 * [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 * [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music)
+* [Auxio](https://f-droid.org/en/packages/org.oxycblt.auxio/)
 * [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music)
 * [Phonograph Music Player](https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone)
 * [Shuttle Music Player](https://play.google.com/store/apps/details?id=another.music.player)
@@ -28,7 +29,6 @@ You will have to experiment with legacy mode and see what works best.
 :x: List of players lacking support for audio processing:
 * [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal) (issue filed)
 * [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android) ([issue filed](https://help.soundcloud.com/requests/483626/))
-* [Auxio](https://f-droid.org/en/packages/org.oxycblt.auxio/) ([issue filed](https://github.com/OxygenCobalt/Auxio/issues/211))
 * [Music Player - MP3 Player, Audio Player](https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player)
 * [Amazon Music](https://play.google.com/store/apps/details?id=com.amazon.mp3)
 * [Pulsar Music Player](https://play.google.com/store/apps/details?id=com.rhmsoft.pulsar)
