@@ -10,6 +10,7 @@ You will have to experiment with legacy mode and see what works best.
 :heavy_check_mark: List of players with support for audio processing:
 * [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 * [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music)
+* [Auxio](https://f-droid.org/en/packages/org.oxycblt.auxio/)
 * [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music)
 * [Phonograph Music Player](https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone)
 * [Shuttle Music Player](https://play.google.com/store/apps/details?id=another.music.player)
