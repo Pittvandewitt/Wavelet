@@ -50,7 +50,7 @@ Instructions to activate enhanced session detection:
   - On Xiaomi devices, it is mandatory to enable USB debugging (Security Settings)
   - On Realme and OPPO devices, it is mandatory to disable permission monitoring under settings - security center
 - Connect your device with a computer
-- Open Chrome on your computer, browse to [https://app.webadb.com/#/shell](https://app.webadb.com/#/shell)
+- Open Chrome on your computer, browse to [https://app.webadb.com/shell](https://app.webadb.com/shell)
 and add and connect your device
 - Run the following command in the shell: `pm grant com.pittvandewitt.wavelet android.permission.DUMP`
 - Go to notification listener access and enable the permission for Wavelet
