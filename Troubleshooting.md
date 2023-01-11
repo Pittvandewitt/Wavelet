@@ -22,6 +22,17 @@ Unfortunately no solution is known for external DACs.
 ## Clipping issues on your Samsung device
 Some Samsung devices have a UHQ upscaler in the 'Sound quality and effects' system settings. Change the UHQ upscaler to Bit upscaling only to avoid clipping issues.
 
+## Crackling/clipping issues on your Google Pixel device
+AutoEq seems to cause audible crackling or clipping on some Google Pixel devices.
+
+To resolve, try the following until the crackling goes away:
+
+- Ensure buffer size is set to the maximum. Tap the cog at the bottom left of Wavelet's main screen. Then, drag the Buffer size slider to the end.
+- Turn on the Limiter built-in to Wavelet. Then, tap Limiter and set the Post-gain to between -4.5db and -5.0db.
+- Lower the AutoEQ strength. Tap AutoEq, then tap the EQ graph and set the strength to a value below 100%, until the crackling is no longer audible.
+
+If none of the above helps, comment on or follow [the ongoing issue on GitHub](https://github.com/Pittvandewitt/Wavelet/issues/46).
+
 
 ## Other
 Wavelet will often not function as expected if other equalizer/hearing aid applications are installed, such as:
