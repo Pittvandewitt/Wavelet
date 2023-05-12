@@ -11,7 +11,7 @@ permalink: /
     case "#legacy-mode":
     case "#buffer-size":
     case "#enhanced-session-detection":
-      window.location.href = window.location.origin + "/Settings/" + document.location.hash;
+      window.location.href = window.location.origin + "/Wavelet/Settings" + document.location.hash;
       break;
   }
 </script>
