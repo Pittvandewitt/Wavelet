@@ -27,5 +27,5 @@ You installed [Wavelet] but it doesn't seem to work out of the box... Try these 
 
 [Wavelet]: https://play.google.com/store/apps/details?id=com.pittvandewitt.wavelet
 [dontkillmyapp]: https://dontkillmyapp.com/
-[Music player setup]: /Configuration
-[Troubleshooting]: /Troubleshooting
+[Music player setup]: /Wavelet/Configuration
+[Troubleshooting]: /Wavelet/Troubleshooting
