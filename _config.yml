@@ -1,3 +1,8 @@
-theme: jekyll-theme-slate
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jemoji
+aux_links:
+  "Wavelet in the Play Store":
+    - "https://play.google.com/store/apps/details?id=com.pittvandewitt.wavelet"
+aux_links_new_tab: true
+footer_content: "Wavelet maintained by <a href=\"https://github.com/Pittvandewitt\">Pittvandewitt</a>"

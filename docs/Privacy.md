@@ -1,4 +1,12 @@
-# Wavelet Privacy policy
+---
+layout: default
+title: Privacy policy
+nav_order: 7
+permalink: Privacy
+nav_exclude: true
+---
+
+# Privacy policy
 
 ## How Wavelet uses your data:
 * No data accessed by Wavelet is shared or retained.

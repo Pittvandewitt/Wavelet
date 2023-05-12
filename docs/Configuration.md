@@ -1,3 +1,10 @@
+---
+layout: default
+title: Music player setup
+nav_order: 4
+permalink: Configuration
+---
+
 # Configure your music player
 
 Some music players require additional configuration to support audio processing.
@@ -36,5 +43,3 @@ Some music players require additional configuration to support audio processing.
 - Select AAudio
 
 This list is exhaustive. Suggestions are welcome.
-
-[Navigate to homepage](https://pittvandewitt.github.io/Wavelet/)
