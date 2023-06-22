@@ -11,7 +11,7 @@ copyright: 'Wavelet maintained by <a href=https://github.com/Pittvandewitt>Pittv
 theme:
   name: 'material'
   palette:
-    primary: custom
+    primary: 'white'
     accent: 'white'
     scheme: wavelet
   logo: assets/favicon.ico
