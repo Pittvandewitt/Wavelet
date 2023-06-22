@@ -1,5 +1,8 @@
 [data-md-color-scheme="wavelet"] {
-    --md-primary-fg-color:        #121212;
-    --md-primary-fg-color--light: #FFF;
-    --md-primary-fg-color--dark:  #121212;
+    --md-primary-fg-color:        #FCFCFC;
+    --md-primary-fg-color--light: #FCFCFC;
+    --md-primary-fg-color--dark:  #1B1B1B;
   }
+.md-header__topic:first-child {
+  font-weight: 500;
+}
