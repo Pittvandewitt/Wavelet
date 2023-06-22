@@ -407,12 +407,12 @@
   
 
 
-<h1 id="settings">Settings</h1>
-<h2 id="buffer-size">Buffer size</h2>
+<h1 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link">&para;</a></h1>
+<h2 id="buffer-size">Buffer size<a class="headerlink" href="#buffer-size" title="Permanent link">&para;</a></h2>
 <p>Buffer size allows for setting the audio processing precision. A low buffer size corresponds to less precision and lower latency. A high buffer size corresponds to better precision and higher latency.<br />
 A low buffer size is recommended when watching videos but not when listening to music.<br />
 <em>On Android 9 it is recommended to max out buffer size, to minimize clipping issues in the lower frequencies</em></p>
-<h2 id="legacy-mode">Legacy mode</h2>
+<h2 id="legacy-mode">Legacy mode<a class="headerlink" href="#legacy-mode" title="Permanent link">&para;</a></h2>
 <p>Legacy mode is turned off by default, because features will become available in Wavelet whenever an application notifies your device system about music playback becoming active.  Some music players do not notify your device system, therefore no features will show up. You can try enabling legacy mode and see if your device allows Wavelet to process your music in this mode. Legacy might work, depending on your device manufacturer's audio framework implementation.<br />
 You will have to experiment with legacy mode and see what works best.</p>
 <p><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2705.svg" title=":white_check_mark:" /> List of players with support for audio processing:</p>
@@ -449,7 +449,7 @@ You will have to experiment with legacy mode and see what works best.</p>
 <li><a href="https://play.google.com/store/apps/details?id=com.foobar2000.foobar2000">foobar2000</a></li>
 <li>Most music applications that came preinstalled on your device</li>
 </ul>
-<h2 id="enhanced-session-detection">Enhanced session detection</h2>
+<h2 id="enhanced-session-detection">Enhanced session detection<a class="headerlink" href="#enhanced-session-detection" title="Permanent link">&para;</a></h2>
 <p><strong>Disclaimer:</strong> Enhanced session detection is experimental and available only for Android 10 and up.<br />
 If you choose to activate enhanced session detection, Wavelet will actively listen for music sessions instead of relying on being notified when a session starts. The DUMP permission is required to allow Wavelet to filter the required information from the device system services needed to attach and release audio effects to audio sessions. The advantage of enhanced session detection is that there is no need to depend on other applications opening and closing their audio sessions properly, which means it should work properly with every media session.</p>
 <p>Instructions to activate enhanced session detection:</p>
