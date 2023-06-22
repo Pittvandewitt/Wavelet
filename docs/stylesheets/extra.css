@@ -6,3 +6,9 @@
 .md-header__topic:first-child {
   font-weight: 500;
 }
+
+@media (prefers-color-scheme: light) {
+  .md-nav__source {
+    background-color: var(--md-primary-fg-color--light);
+  }
+}
