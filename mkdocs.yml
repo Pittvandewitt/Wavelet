@@ -1,0 +1,44 @@
+site_name: Wavelet
+site_url: https://pittvandewitt.github.io/Wavelet
+site_author: Pittvandewitt
+site_description: "A quick rundown on each feature and its settings"
+
+repo_name: Pittvandewitt/Wavelet
+repo_url: https://github.com/Pittvandewitt/Wavelet
+
+copyright: 'Wavelet maintained by <a href=https://github.com/Pittvandewitt>Pittvandewitt</a>'
+
+theme:
+  name: 'material'
+  palette:
+    primary: custom
+    accent: 'white'
+    scheme: wavelet
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+  font:
+    text: Poppins
+  feature:
+    tabs: true
+  features:
+    - navigation.footer
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+    - Configuration: Configuration.md
+    - Features: Features.md
+    - Import: Import.md
+    - Settings: Settings.md
+    - Troubleshooting: Troubleshooting.md

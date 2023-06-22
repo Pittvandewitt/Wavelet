@@ -1,3 +1,5 @@
 _site
 Gemfile.lock
 .bundles_cache
+/venv
+site

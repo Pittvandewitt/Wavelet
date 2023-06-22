@@ -1,10 +1,3 @@
----
-layout: default
-title: Music player setup
-nav_order: 4
-permalink: Configuration
----
-
 # Configure your music player
 
 Some music players require additional configuration to support audio processing.

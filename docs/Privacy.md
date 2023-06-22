@@ -1,11 +1,3 @@
----
-layout: default
-title: Privacy policy
-nav_order: 7
-permalink: Privacy
-nav_exclude: true
----
-
 # Privacy policy
 
 ## How Wavelet uses your data:

@@ -1,10 +1,3 @@
----
-layout: default
-title: App settings
-nav_order: 3
-permalink: Settings
----
-
 # Settings
 
 ## Buffer size
@@ -18,7 +11,8 @@ A low buffer size is recommended when watching videos but not when listening to 
 Legacy mode is turned off by default, because features will become available in Wavelet whenever an application notifies your device system about music playback becoming active.  Some music players do not notify your device system, therefore no features will show up. You can try enabling legacy mode and see if your device allows Wavelet to process your music in this mode. Legacy might work, depending on your device manufacturer's audio framework implementation.  
 You will have to experiment with legacy mode and see what works best.
 
-:heavy_check_mark: List of players with support for audio processing:
+:white_check_mark: List of players with support for audio processing:
+
 * [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 * [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music)
 * [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music)
@@ -36,7 +30,8 @@ You will have to experiment with legacy mode and see what works best.
 * [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc) (requires [additional configuration](/Configuration#vlc))
 * [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp) (requires [additional configuration](/Configuration#plexamp))
 
-:x: List of players lacking support for audio processing:
+❌ List of players lacking support for audio processing:
+
 * [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal) (issue filed)
 * [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android) ([issue filed](https://help.soundcloud.com/requests/483626/))
 * [Music Player - MP3 Player, Audio Player](https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player)
@@ -58,9 +53,9 @@ If you choose to activate enhanced session detection, Wavelet will actively list
 Instructions to activate enhanced session detection:
 
 - Activate developer options and enable USB debugging on your device as instructed on [developer.android.com/studio/debug/dev-options]
-  - On Xiaomi devices, it is mandatory to enable 'USB debugging (Security Settings)' in developer options
-  - On Realme and OPPO devices, it is mandatory to disable 'permission monitoring' under settings - security center
-  - On OnePlus devices, it is mandatory to enable 'Disable permission monitoring' in developer options
+    - On Xiaomi devices, it is mandatory to enable 'USB debugging (Security Settings)' in developer options
+    - On Realme and OPPO devices, it is mandatory to disable 'permission monitoring' under settings - security center
+    - On OnePlus devices, it is mandatory to enable 'Disable permission monitoring' in developer options
 - Connect your device with a computer
 - Open Chrome on your computer, browse to [app.webadb.com/#/shell] and add and connect your device
 - Run the following command in the shell: $ `pm grant com.pittvandewitt.wavelet android.permission.DUMP`

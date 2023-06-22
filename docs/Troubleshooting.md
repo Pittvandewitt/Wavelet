@@ -1,10 +1,3 @@
----
-layout: default
-title: Troubleshooting
-nav_order: 6
-permalink: Troubleshooting
----
-
 # Troubleshooting
 
 ## In-app purchase no longer available

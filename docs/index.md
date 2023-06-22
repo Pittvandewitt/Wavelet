@@ -1,11 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
-description: A quick rundown on each feature and its settings
-permalink: /
----
-
 <script>
   switch(document.location.hash) {
     case "#legacy-mode":
