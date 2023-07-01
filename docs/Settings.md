@@ -28,12 +28,12 @@ You will have to experiment with legacy mode and see what works best.
 * [BlackPlayer](https://play.google.com/store/apps/details?id=com.musicplayer.blackplayerfree) (requires [additional configuration](/Configuration#blackplayer))
 * [Deezer](https://play.google.com/store/apps/details?id=deezer.android.app) (requires [additional configuration](/Configuration#deezer))
 * [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc) (requires [additional configuration](/Configuration#vlc))
-* [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp) (requires [additional configuration](/Configuration#plexamp))
 
 ❌ List of players lacking support for audio processing:
 
-* [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal) (issue filed)
-* [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android) ([issue filed](https://help.soundcloud.com/requests/483626/))
+* [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal)
+* [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
+* [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android)
 * [Music Player - MP3 Player, Audio Player](https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player)
 * [Amazon Music](https://play.google.com/store/apps/details?id=com.amazon.mp3)
 * [Pulsar Music Player](https://play.google.com/store/apps/details?id=com.rhmsoft.pulsar)
