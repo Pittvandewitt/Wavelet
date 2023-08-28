@@ -54,6 +54,8 @@ The limiter removes volume spikes from your audio streams. Sometimes this is des
 
 - __Threshold__ determines above what volume level the limiter should become effective.
 
+- __Automatic post-gain__ calculates the highest gain of all features combined and then substracts this value from the output gain. This makes sure you never boost your volume above the hardware limit, to prevent distortion or clipping from happening.
+
 - __Post-gain__ allows you to compensate for volume changes caused ratio and threshold.
 
 ## Channel balance
