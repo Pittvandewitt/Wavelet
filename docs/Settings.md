@@ -59,10 +59,16 @@ Instructions to activate enhanced session detection:
     - On OnePlus devices, it is mandatory to enable 'Disable permission monitoring' in developer options
 - Connect your device with a computer
 - Open Chrome on your computer, browse to [app.webadb.com/shell] and add and connect your device
-- Run the following command in the shell: $ `pm grant com.pittvandewitt.wavelet android.permission.DUMP`
+- Run the following command in the shell:
+  ```
+  pm grant com.pittvandewitt.wavelet android.permission.DUMP
+  ```
 - Go to notification listener access and enable the permission for Wavelet
 
-If you wish to switch back to the old behaviour, you can do so by disabling notification listener access for Wavelet and/or by running $ `pm  revoke com.pittvandewitt.wavelet android.permission.DUMP`.
+If you wish to switch back to the old behaviour, you can do so by disabling notification listener access for Wavelet and/or by running:
+```
+pm  revoke com.pittvandewitt.wavelet android.permission.DUMP
+```
 
 [app.webadb.com/shell]: https://app.webadb.com/shell
 [developer.android.com/studio/debug/dev-options]: https://developer.android.com/studio/debug/dev-options.html#enable
