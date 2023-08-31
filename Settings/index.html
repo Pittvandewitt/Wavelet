@@ -464,6 +464,8 @@ If you choose to activate enhanced session detection, Wavelet will actively list
 <li>Connect your device with a computer</li>
 <li>Open Chrome on your computer, browse to <a href="https://app.webadb.com/shell">app.webadb.com/shell</a> and add and connect your device</li>
 <li>Run the following command in the shell: $ <code>pm grant com.pittvandewitt.wavelet android.permission.DUMP</code></li>
+<li>Or you can grant DUMP permission via ADB on your computer by executing this command: <code>adb -d shell pm grant com.pittvandewitt.wavelet android.permission.DUMP</code></li>
+
 <li>Go to notification listener access and enable the permission for Wavelet</li>
 </ul>
 <p>If you wish to switch back to the old behaviour, you can do so by disabling notification listener access for Wavelet and/or by running $ <code>pm  revoke com.pittvandewitt.wavelet android.permission.DUMP</code>.</p>
