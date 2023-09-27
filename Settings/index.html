@@ -454,19 +454,29 @@ You will have to experiment with legacy mode and see what works best.</p>
 <p><strong>Disclaimer:</strong> Enhanced session detection is experimental and available only for Android 10 and up.<br />
 If you choose to activate enhanced session detection, Wavelet will actively listen for music sessions instead of relying on being notified when a session starts. The DUMP permission is required to allow Wavelet to filter the required information from the device system services needed to attach and release audio effects to audio sessions. The advantage of enhanced session detection is that there is no need to depend on other applications opening and closing their audio sessions properly, which means it should work properly with every media session.</p>
 <p>Instructions to activate enhanced session detection:</p>
-<ul>
+<ol>
 <li>Activate developer options and enable USB debugging on your device as instructed on <a href="https://developer.android.com/studio/debug/dev-options.html#enable">developer.android.com/studio/debug/dev-options</a><ul>
 <li>On Xiaomi devices, it is mandatory to enable 'USB debugging (Security Settings)' in developer options</li>
 <li>On Realme and OPPO devices, it is mandatory to disable 'permission monitoring' under settings - security center</li>
 <li>On OnePlus devices, it is mandatory to enable 'Disable permission monitoring' in developer options</li>
 </ul>
 </li>
-<li>Connect your device with a computer</li>
-<li>Open Chrome on your computer, browse to <a href="https://app.webadb.com/shell">app.webadb.com/shell</a> and add and connect your device</li>
-<li>Run the following command in the shell: $ <code>pm grant com.pittvandewitt.wavelet android.permission.DUMP</code></li>
+<li>Grant DUMP permission<ol>
+<li>Connect your device to any device with Chrome installed (or go to d.)</li>
+<li>Open Chrome on the host device, browse to <a href="https://app.webadb.com/shell">app.webadb.com/shell</a> and add and connect your device</li>
+<li>Run this command in the webadb shell:
+<div class="highlight"><pre><span></span><code>pm<span class="w"> </span>grant<span class="w"> </span>com.pittvandewitt.wavelet<span class="w"> </span>android.permission.DUMP
+</code></pre></div></li>
+<li>Alternatively, if your device has a shell with ADB installed, run:
+<div class="highlight"><pre><span></span><code>adb<span class="w"> </span>shell<span class="w"> </span>pm<span class="w"> </span>grant<span class="w"> </span>com.pittvandewitt.wavelet<span class="w"> </span>android.permission.DUMP
+</code></pre></div></li>
+</ol>
+</li>
 <li>Go to notification listener access and enable the permission for Wavelet</li>
-</ul>
-<p>If you wish to switch back to the old behaviour, you can do so by disabling notification listener access for Wavelet and/or by running $ <code>pm  revoke com.pittvandewitt.wavelet android.permission.DUMP</code>.</p>
+</ol>
+<p>If you wish to switch back to the old behaviour, you can do so by disabling notification listener access for Wavelet and/or by running:
+<div class="highlight"><pre><span></span><code>pm<span class="w"> </span>revoke<span class="w"> </span>com.pittvandewitt.wavelet<span class="w"> </span>android.permission.DUMP
+</code></pre></div></p>
 
 
 
