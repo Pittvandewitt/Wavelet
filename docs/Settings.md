@@ -53,21 +53,26 @@ If you choose to activate enhanced session detection, Wavelet will actively list
 
 Instructions to activate enhanced session detection:
 
-- Activate developer options and enable USB debugging on your device as instructed on [developer.android.com/studio/debug/dev-options]
+1. Activate developer options and enable USB debugging on your device as instructed on [developer.android.com/studio/debug/dev-options]
     - On Xiaomi devices, it is mandatory to enable 'USB debugging (Security Settings)' in developer options
     - On Realme and OPPO devices, it is mandatory to disable 'permission monitoring' under settings - security center
     - On OnePlus devices, it is mandatory to enable 'Disable permission monitoring' in developer options
-- Connect your device with a computer
-- Open Chrome on your computer, browse to [app.webadb.com/shell] and add and connect your device
-- Run the following command in the shell:
-  ```
-  pm grant com.pittvandewitt.wavelet android.permission.DUMP
-  ```
-- Go to notification listener access and enable the permission for Wavelet
+2. Grant DUMP permission
+    1. Connect your device to any device with Chrome installed (or go to d.)
+    2. Open Chrome on the host device, browse to [app.webadb.com/shell] and add and connect your device
+    3. Run this command in the webadb shell:
+    ```shell
+    pm grant com.pittvandewitt.wavelet android.permission.DUMP
+    ```
+    4. Alternatively, if your device has a shell with ADB installed, run:
+    ```shell
+    adb shell pm grant com.pittvandewitt.wavelet android.permission.DUMP
+    ```
+3. Go to notification listener access and enable the permission for Wavelet
 
 If you wish to switch back to the old behaviour, you can do so by disabling notification listener access for Wavelet and/or by running:
-```
-pm  revoke com.pittvandewitt.wavelet android.permission.DUMP
+```shell
+pm revoke com.pittvandewitt.wavelet android.permission.DUMP
 ```
 
 [app.webadb.com/shell]: https://app.webadb.com/shell
