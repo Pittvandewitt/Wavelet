@@ -2,7 +2,7 @@
 
 ## AutoEq
 
-The [AutoEq] feature contains precalculated results from jaakkopasanen's great work. Over 3500 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
+The [AutoEq] feature contains precalculated results from jaakkopasanen's great work. Over 3600 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
 
 - __Headphone model__ lets you search the database or view your previously selected headphones. Tap the search icon next to the title to add new listings or tap the x icon to remove an item if you selected the wrong one. *Make sure to only use the entry that is meant for your headphone model*.
 
@@ -13,6 +13,12 @@ The [AutoEq] feature contains precalculated results from jaakkopasanen's great w
 The graphic equalizer consists of 9 bands. You can set each slider independently to change the balance in frequency response or to remove obvious imbalance issues. You can also use this feature to compensate the frequency response of your speakers or your headphones if they're are not listed in the AutoEq section, or if you would like to add some coloration to your audio stream.
 
 - __Presets__ contains a few presets for a given set of sound signatures. The first entry will reset all bands to stock.
+
+## Equal loudness
+
+Equal loudness implements the ISO 226 standard. This standard describes how strong certain frequencies must be reproduced in order to perceive them equally loud at various volume levels. This means with equal loudness enabled, the sound signature will stay the same no matter at which volume step you are listening. With equal loudness disabled, medium frequencies will be more noticable at a low volume levels for example.
+
+- __Volume threshold__ sets the threshold on which equal loudness becomes active. Set your device volume to the level you would normally prefer and set this slider to the lowest value just before the graph starts changing.
 
 ## Bass boost
 
