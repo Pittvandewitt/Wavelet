@@ -1,7 +1,8 @@
 # Troubleshooting
 
 ## In-app purchase no longer available
-The in-app purchase is a one time only purchase without expiry. It is saved to your Google account. In case your purchase is not detected by Wavelet, you are adviced to clear Play Store data by going to your system settings - apps. Your purchase will be reloaded and made available to Wavelet again after you reboot your device.
+The in-app purchase is a one time only purchase without expiry. It is saved to your Google account. In case your purchase is not detected by Wavelet, you are adviced to vist Wavelet in the Play Store on the device where the purchase is not detected. Opening Wavelet through Google Play will restore the purchase.  
+[Open Wavelet :fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.pittvandewitt.wavelet){ .md-button }  
 
 
 ## Headphone model not listed in AutoEq
