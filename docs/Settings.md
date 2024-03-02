@@ -15,12 +15,12 @@ You will have to experiment with legacy mode and see what works best.
 
 * [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 * [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music)
+* [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
 * [Music Player GO](https://play.google.com/store/apps/details?id=com.iven.musicplayergo)
 * [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music)
 * [Phonograph Music Player](https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone)
 * [Shuttle Music Player](https://play.google.com/store/apps/details?id=another.music.player)
 * [Samsung Music](https://play.google.com/store/apps/details?id=com.sec.android.app.music)
-* [Google Play Music](https://play.google.com/store/apps/details?id=com.google.android.music)
 * [Just (Video) Player](https://play.google.com/store/apps/details?id=com.brouken.player)
 * [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict)
 * [Poweramp](https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer) (requires [additional configuration](/Configuration#poweramp))
@@ -33,7 +33,6 @@ You will have to experiment with legacy mode and see what works best.
 ❌ List of players lacking support for audio processing:
 
 * [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal)
-* [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
 * [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android)
 * [Music Player - MP3 Player, Audio Player](https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player)
 * [Amazon Music](https://play.google.com/store/apps/details?id=com.amazon.mp3)
