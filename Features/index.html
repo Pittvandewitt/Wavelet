@@ -21,7 +21,7 @@
         <link rel="next" href="../Import/">
       
       <link rel="icon" href="../assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.1.16">
     
     
       
@@ -283,6 +283,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#equal-loudness" class="md-nav__link">
+    Equal loudness
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#bass-boost" class="md-nav__link">
     Bass boost
   </a>
@@ -418,6 +425,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#equal-loudness" class="md-nav__link">
+    Equal loudness
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#bass-boost" class="md-nav__link">
     Bass boost
   </a>
@@ -479,7 +493,7 @@
 
 <h1 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h1>
 <h2 id="autoeq">AutoEq<a class="headerlink" href="#autoeq" title="Permanent link">&para;</a></h2>
-<p>The <a href="https://github.com/jaakkopasanen/AutoEq">AutoEq</a> feature contains precalculated results from jaakkopasanen's great work. Over 3500 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.</p>
+<p>The <a href="https://github.com/jaakkopasanen/AutoEq">AutoEq</a> feature contains precalculated results from jaakkopasanen's great work. Over 3600 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.</p>
 <ul>
 <li>
 <p><strong>Headphone model</strong> lets you search the database or view your previously selected headphones. Tap the search icon next to the title to add new listings or tap the x icon to remove an item if you selected the wrong one. <em>Make sure to only use the entry that is meant for your headphone model</em>.</p>
@@ -492,6 +506,11 @@
 <p>The graphic equalizer consists of 9 bands. You can set each slider independently to change the balance in frequency response or to remove obvious imbalance issues. You can also use this feature to compensate the frequency response of your speakers or your headphones if they're are not listed in the AutoEq section, or if you would like to add some coloration to your audio stream.</p>
 <ul>
 <li><strong>Presets</strong> contains a few presets for a given set of sound signatures. The first entry will reset all bands to stock.</li>
+</ul>
+<h2 id="equal-loudness">Equal loudness<a class="headerlink" href="#equal-loudness" title="Permanent link">&para;</a></h2>
+<p>Equal loudness implements the ISO 226 standard. This standard describes how strong certain frequencies must be reproduced in order to perceive them equally loud at various volume levels. This means with equal loudness enabled, the sound signature will stay the same no matter at which volume step you are listening. With equal loudness disabled, medium frequencies will be more noticable at a low volume levels for example.</p>
+<ul>
+<li><strong>Volume threshold</strong> sets the threshold on which equal loudness becomes active. Set your device volume to the level you would normally prefer and set this slider to the lowest value just before the graph starts changing.</li>
 </ul>
 <h2 id="bass-boost">Bass boost<a class="headerlink" href="#bass-boost" title="Permanent link">&para;</a></h2>
 <p>Bass boost is available on Android 9 exclusively. It amplifies the lower frequencies.</p>
