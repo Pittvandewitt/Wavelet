@@ -16,6 +16,7 @@ You will have to experiment with legacy mode and see what works best.
 * [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 * [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music)
 * [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
+* [Auxio](https://f-droid.org/packages/org.oxycblt.auxio/)
 * [Music Player GO](https://play.google.com/store/apps/details?id=com.iven.musicplayergo)
 * [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music)
 * [Phonograph Music Player](https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone)
