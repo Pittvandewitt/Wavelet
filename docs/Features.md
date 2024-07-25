@@ -2,7 +2,7 @@
 
 ## AutoEq
 
-The [AutoEq] feature contains precalculated results from jaakkopasanen's great work. Over 3600 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
+The [AutoEq] feature contains precalculated results from jaakkopasanen's great work. Over 5000 entries are shipped with Wavelet and contain the optimal frequency response compensation for those specific headphone models.
 
 - __Headphone model__ lets you search the database or view your previously selected headphones. Tap the search icon next to the title to add new listings or tap the x icon to remove an item if you selected the wrong one. *Make sure to only use the entry that is meant for your headphone model*.
 
