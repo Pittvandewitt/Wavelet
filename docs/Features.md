@@ -72,4 +72,4 @@ Some phones have a limiter built in that causes volume ducking when you boost ab
 - __Channel gain__ controls the balance between left and right.
 
 [AutoEq]: https://github.com/jaakkopasanen/AutoEq
-[import instructions]: /Wavelet/Import
+[import instructions]: Import.md

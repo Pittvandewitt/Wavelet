@@ -13,37 +13,38 @@ You will have to experiment with legacy mode and see what works best.
 
 :white_check_mark: List of players with support for audio processing:
 
-* [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
-* [Spotify Music](https://play.google.com/store/apps/details?id=com.spotify.music)
-* [Plexamp](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
-* [Auxio](https://f-droid.org/packages/org.oxycblt.auxio/)
-* [Music Player GO](https://play.google.com/store/apps/details?id=com.iven.musicplayergo)
-* [Jair Music Player](https://play.google.com/store/apps/details?id=aj.jair.music)
-* [Phonograph Music Player](https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone)
-* [Shuttle Music Player](https://play.google.com/store/apps/details?id=another.music.player)
-* [Samsung Music](https://play.google.com/store/apps/details?id=com.sec.android.app.music)
-* [Just (Video) Player](https://play.google.com/store/apps/details?id=com.brouken.player)
-* [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict)
-* [Poweramp](https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer) (requires [additional configuration](/Configuration#poweramp))
-* [Neutron](https://play.google.com/store/apps/details?id=com.neutroncode.mp) (requires [additional configuration](/Configuration#neutron))
-* [Musicolet](https://play.google.com/store/apps/details?id=in.krosbits.musicolet) (requires [additional configuration](/Configuration#musicolet))
-* [BlackPlayer](https://play.google.com/store/apps/details?id=com.musicplayer.blackplayerfree) (requires [additional configuration](/Configuration#blackplayer))
-* [Deezer](https://play.google.com/store/apps/details?id=deezer.android.app) (requires [additional configuration](/Configuration#deezer))
-* [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc) (requires [additional configuration](/Configuration#vlc))
+* [YouTube Music]
+* [Spotify]
+* [Plexamp]
+* [Auxio]
+* [Music Player GO]
+* [Jair Music Player]
+* [Phonograph Music Player]
+* [Shuttle Music Player]
+* [Samsung Music]
+* [Just (Video) Player]
+* [Podcast Addict]
+* [Poweramp Music Player] (requires [additional configuration](Configuration.md#poweramp))
+* [Neutron Music Player] (requires [additional configuration](Configuration.md#neutron))
+* [Musicolet Music Player] (requires [additional configuration](Configuration.md#musicolet))
+* [BlackPlayer Music Player] (requires [additional configuration](Configuration.md#blackplayer))
+* [Deezer] (requires [additional configuration](Configuration.md#deezer))
+* [VLC for Android] (requires [additional configuration](Configuration.md#vlc))
 
 ❌ List of players lacking support for audio processing:
 
-* [Tidal](https://play.google.com/store/apps/details?id=com.aspiro.tidal)
-* [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android)
-* [Music Player - MP3 Player, Audio Player](https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player)
-* [Amazon Music](https://play.google.com/store/apps/details?id=com.amazon.mp3)
-* [Pulsar Music Player](https://play.google.com/store/apps/details?id=com.rhmsoft.pulsar)
-* [Pocket Cast](https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts)
-* [Stream YouTube Player](https://play.google.com/store/apps/details?id=com.djit.apps.stream)
-* [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube)
-* [Pandora](https://play.google.com/store/apps/details?id=com.pandora.android)
-* [Qobuz](https://play.google.com/store/apps/details?id=com.qobuz.music)
-* [foobar2000](https://play.google.com/store/apps/details?id=com.foobar2000.foobar2000)
+* [TIDAL Music]
+* [SoundCloud]
+* [Apple Music] (Sometimes it does, but very buggy)
+* [Music Player & MP3 Player]
+* [Amazon Music]
+* [Pulsar Music Player]
+* [Pocket Casts]
+* [YouTube]
+* [Pandora]
+* [Qobuz]
+* [foobar2000]
+* [LibreTube]
 * Most music applications that came preinstalled on your device
 
 ## Enhanced session detection
@@ -77,3 +78,34 @@ pm revoke com.pittvandewitt.wavelet android.permission.DUMP
 
 [app.webadb.com/shell]: https://app.webadb.com/shell
 [developer.android.com/studio/debug/dev-options]: https://developer.android.com/studio/debug/dev-options.html#enable
+
+[Youtube Music]: https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music
+[Spotify]: https://play.google.com/store/apps/details?id=com.spotify.music
+[Plexamp]: https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp
+[Auxio]: https://f-droid.org/packages/org.oxycblt.auxio/
+[Music Player GO]: https://play.google.com/store/apps/details?id=com.iven.musicplayergo
+[Jair Music Player]: https://play.google.com/store/apps/details?id=aj.jair.music
+[Phonograph Music Player]: https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone
+[Shuttle Music Player]: https://play.google.com/store/apps/details?id=another.music.player
+[Samsung Music]: https://play.google.com/store/apps/details?id=com.sec.android.app.music
+[Just (Video) Player]: https://play.google.com/store/apps/details?id=com.brouken.player
+[Podcast Addict]: https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict
+[Poweramp Music Player]: https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer
+[Neutron Music Player]: https://play.google.com/store/apps/details?id=com.neutroncode.mp
+[Musicolet Music Player]: https://play.google.com/store/apps/details?id=in.krosbits.musicolet
+[BlackPlayer Music Player]: https://play.google.com/store/apps/details?id=com.musicplayer.blackplayerfree
+[Deezer]: https://play.google.com/store/apps/details?id=deezer.android.app
+[VLC for Android]: https://play.google.com/store/apps/details?id=org.videolan.vlc
+
+[TIDAL Music]: https://play.google.com/store/apps/details?id=com.aspiro.tidal
+[SoundCloud]: https://play.google.com/store/apps/details?id=com.soundcloud.android
+[Apple Music]: https://play.google.com/store/apps/details?id=com.apple.android.music
+[Music Player & MP3 Player]: https://play.google.com/store/apps/details?id=musicplayer.musicapps.music.mp3player
+[Amazon Music]: https://play.google.com/store/apps/details?id=com.amazon.mp3
+[Pulsar Music Player]: https://play.google.com/store/apps/details?id=com.rhmsoft.pulsar
+[Pocket Casts]: https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts
+[YouTube]: https://play.google.com/store/apps/details?id=com.google.android.youtube
+[Pandora]: https://play.google.com/store/apps/details?id=com.pandora.android
+[Qobuz]: https://play.google.com/store/apps/details?id=com.qobuz.music
+[foobar2000]: https://play.google.com/store/apps/details?id=com.foobar2000.foobar2000
+[LibreTube]: https://f-droid.org/packages/com.github.libretube/

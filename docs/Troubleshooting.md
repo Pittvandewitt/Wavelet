@@ -35,6 +35,6 @@ Wavelet will often not function as expected if other equalizer/hearing aid appli
 
 Freezing or uninstalling the offending application + rebooting your device will resolve issues caused by this.
 
-[import instructions]: /Wavelet/Import
+[import instructions]: Import.md
 [developer options]: https://developer.android.com/studio/debug/dev-options.html#enable
 [dontkillmyapp.com]: https://dontkillmyapp.com/
