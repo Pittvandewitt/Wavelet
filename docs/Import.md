@@ -2,8 +2,8 @@
 
 The import feature allows you to use your own created compensation data in Wavelet, which is useful if your headphone model is not listed or if you wish to tweak the current result shipped with Wavelet.  
 
- [AutoEq.app](https://autoeq.app){ .md-button }  
-*Visit autoeq.app to get started.*  
+[AutoEq.app](https://autoeq.app){ .md-button } [Squig.link](https://squig.link){ .md-button }  
+*Visit autoeq.app or squig.link to get started.*  
 
 Wavelet will use the file name (without extension) of the GraphicEq file to display your imported result.  
 Currently, the GraphicEQ file must meet the following format to be accepted by Wavelet:
