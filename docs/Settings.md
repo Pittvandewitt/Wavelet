@@ -6,6 +6,10 @@ Buffer size allows for setting the audio processing precision. A low buffer size
 A low buffer size is recommended when watching videos but not when listening to music.  
 *On Android 9 it is recommended to max out buffer size, to minimize clipping issues in the lower frequencies*
 
+## AIDL mode
+
+AIDL mode is a workaround for the issues Google introduced with the new AIDL Audio HAL. Less features are available in this mode unfortunately. Enable this setting if Wavelet stopped working properly after a system update or if changing any setting in the equalization options has no effect. Currently known affected devices are the Pixel 9 series and Xiaomi 15. More devices are expected to suffer from these issues.
+
 ## Legacy mode
 
 Legacy mode is turned off by default, because features will become available in Wavelet whenever an application notifies your device system about music playback becoming active.  Some music players do not notify your device system, therefore no features will show up. You can try enabling legacy mode and see if your device allows Wavelet to process your music in this mode. Legacy might work, depending on your device manufacturer's audio framework implementation.  
