@@ -26,7 +26,13 @@ You will have to experiment with legacy mode and see what works best.
 * [Phonograph Music Player]
 * [Shuttle Music Player]
 * [Samsung Music]
+* [YouTube]
 * [Just (Video) Player]
+* [Video Player KMP]
+* [KMPlayer]
+* [KMPlayer Plus (Divx Codec)]
+* [PLAYit-All in One Video Player]
+* [Next Player]
 * [Podcast Addict]
 * [Poweramp Music Player] (requires [additional configuration](Configuration.md#poweramp))
 * [Neutron Music Player] (requires [additional configuration](Configuration.md#neutron))
@@ -34,6 +40,7 @@ You will have to experiment with legacy mode and see what works best.
 * [BlackPlayer Music Player] (requires [additional configuration](Configuration.md#blackplayer))
 * [Deezer] (requires [additional configuration](Configuration.md#deezer))
 * [VLC for Android] (requires [additional configuration](Configuration.md#vlc))
+    - Warning: May not work properly on some devices. Videos may start at 100% volume so be cautious and don't wear headsets while testing.
 
 ❌ List of players lacking support for audio processing:
 
@@ -44,11 +51,12 @@ You will have to experiment with legacy mode and see what works best.
 * [Amazon Music]
 * [Pulsar Music Player]
 * [Pocket Casts]
-* [YouTube]
 * [Pandora]
 * [Qobuz]
 * [foobar2000]
 * [LibreTube]
+* [Video Player All Format (aka Xplayer)]
+* [Video Player All Format (aka Arc Video Player)]
 * Most music applications that came preinstalled on your device
 
 ## Enhanced session detection
@@ -100,6 +108,11 @@ pm revoke com.pittvandewitt.wavelet android.permission.DUMP
 [BlackPlayer Music Player]: https://play.google.com/store/apps/details?id=com.musicplayer.blackplayerfree
 [Deezer]: https://play.google.com/store/apps/details?id=deezer.android.app
 [VLC for Android]: https://play.google.com/store/apps/details?id=org.videolan.vlc
+[Video Player KMP]: https://play.google.com/store/apps/details?id=com.kmp.video
+[KMPlayer]: https://play.google.com/store/apps/details?id=com.kmplayer
+[KMPlayer Plus (Divx Codec)]: https://play.google.com/store/apps/details?id=com.kmplayer.d
+[PLAYit-All in One Video Player]: https://play.google.com/store/apps/details?id=com.playit.videoplayer
+[Next Player]: https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer
 
 [TIDAL Music]: https://play.google.com/store/apps/details?id=com.aspiro.tidal
 [SoundCloud]: https://play.google.com/store/apps/details?id=com.soundcloud.android
@@ -113,3 +126,5 @@ pm revoke com.pittvandewitt.wavelet android.permission.DUMP
 [Qobuz]: https://play.google.com/store/apps/details?id=com.qobuz.music
 [foobar2000]: https://play.google.com/store/apps/details?id=com.foobar2000.foobar2000
 [LibreTube]: https://f-droid.org/packages/com.github.libretube/
+[Video Player All Format (aka Xplayer)]: https://play.google.com/store/apps/details?id=video.player.videoplayer
+[Video Player All Format (aka Arc Video Player)]: https://play.google.com/store/apps/details?id=com.videoplayer.arcplayer
