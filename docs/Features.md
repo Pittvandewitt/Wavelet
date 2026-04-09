@@ -48,6 +48,13 @@ Bass tuner allows you to set a very precise bass boost or reduction. This can be
 
 - __Post-gain__ sets the gain to compensate for. This value can either be negative or positive.
 
+## Input gain
+Input gain is the first stage of digital signal processing (dsp) in Wavelet. Setting this correctly prevents the signal from clipping
+
+- __Automatic input gain__ calculates the highest gain of all features in Wavelet combined and then uses this value to attenuate the input gain. This makes sure you never boost your volume above the digital limit, to prevent clipping or distortion from occurring.
+
+- __Input gain__ lets you manually set the input gain. 
+
 ## Limiter
 
 The limiter removes volume spikes from your audio streams. Sometimes this is desired in noisy environments where you need to turn up the volume in quiet parts of the music and later turn it down when the music becomes louder.
@@ -59,8 +66,6 @@ The limiter removes volume spikes from your audio streams. Sometimes this is des
 - __Ratio__ sets the effect strength. If a signal is 1dB over the threshold, it will reduce the output by the ratio level you set.
 
 - __Threshold__ determines above what volume level the limiter should become effective.
-
-- __Automatic post-gain__ calculates the highest gain of all features combined and then substracts this value from the output gain. This makes sure you never boost your volume above the hardware limit, to prevent distortion or clipping from happening.
 
 - __Post-gain__ allows you to compensate for volume changes caused ratio and threshold.
 
