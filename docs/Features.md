@@ -48,12 +48,12 @@ Bass tuner allows you to set a very precise bass boost or reduction. This can be
 
 - __Post-gain__ sets the gain to compensate for. This value can either be negative or positive.
 
-## Input gain
-Input gain is the first stage of digital signal processing (dsp) in Wavelet. Setting this correctly prevents the signal from clipping
+## Attenuator
+Attenuator is the first stage of digital signal processing (dsp) in Wavelet. Setting this correctly prevents the signal from clipping.
 
-- __Automatic input gain__ calculates the highest gain of all features in Wavelet combined and then uses this value to attenuate the input gain. This makes sure you never boost your volume above the digital limit, to prevent clipping or distortion from occurring.
+- __Automatic attenuation__ calculates the highest gain of all features in Wavelet combined and then uses this value for attenuation. This makes sure you never boost your volume above the digital limit, to prevent clipping or distortion from occurring.
 
-- __Input gain__ lets you manually set the input gain. 
+- __Attenuation__ lets you manually set the attenuation. 
 
 ## Limiter
 
