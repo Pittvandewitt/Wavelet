@@ -1,8 +1,13 @@
 # Troubleshooting
 
+## Some feature is missing
+- Features in Wavelet are displayed dynamically. For example, AutoEq is available if your headphones are connected. This audio device detection also allows for saving and restoring your configuration based on the device type/name. You can verify which device is connected by checking the notification.  
+- Starting with Android 15, Google is slowly rolling out the AIDL Audio HAL to more devices. Not all features previously in Wavelet are available with the AIDL Audio HAL, due to the bugs they introduced. The workarounds Wavelet applies are making the best of a very unfortunate situation, that will hopefully be resolved in the future. If buffer size is not available in the settings, it means that Wavelet is applying the workarounds.
+
+
 ## In-app purchase no longer available
 The in-app purchase is a one time only purchase without expiry. It is saved to your Google account. Therefore, confirm you are logged in with the Google account you made the purchase with. In case your purchase is not detected by Wavelet, you are adviced to vist the Wavelet listing in the Play Store on the device where the purchase is not detected. Opening Wavelet through Google Play will restore the purchase.  
-[Open Wavelet :fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.pittvandewitt.wavelet){ .md-button }  
+[Open Wavelet :fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.pittvandewitt.wavelet){ .md-button .md-button--primary }
 
 
 ## Headphone model not listed in AutoEq
@@ -19,7 +24,7 @@ Go to your device [developer options] and turn off "Disable Bluetooth A2DP hardw
 
 
 ## No sound difference via Bluetooth device or external DAC
-Some devices ship libraries used by Wavelet that don't support the sample rate used by your Bluetooth device or DAC. To fix this issue for Bluetooth devices, go to your device [device developer] options and set the Bluetooth sample rate to 48kHz and/or the Bluetooth codec to SBC.  
+Some devices ship libraries used by Wavelet that don't support the sample rate used by your Bluetooth device or DAC. To fix this issue for Bluetooth devices, go to your device [developer options] and set the Bluetooth sample rate to 48kHz and/or the Bluetooth codec to SBC.  
 Unfortunately no solution is known for external DACs.
 
 
