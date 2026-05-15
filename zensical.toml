@@ -1,0 +1,41 @@
+[project]
+site_name = "Wavelet"
+site_url = "https://pittvandewitt.github.io/Wavelet"
+repo_name = "Pittvandewitt/Wavelet"
+repo_url = "https://github.com/Pittvandewitt/Wavelet"
+site_author = "Pittvandewitt"
+site_description = "A quick rundown on each feature and its settings"
+docs_dir = "docs"
+copyright = "Wavelet maintained by <a href=https://github.com/Pittvandewitt>Pittvandewitt</a>"
+extra_css = ["stylesheets/extra.css"]
+nav = [
+    {"Configuration" = "Configuration.md"},
+    {"Features" = "Features.md"},
+    {"Import" = "Import.md"},
+    {"Settings" = "Settings.md"},
+    {"Troubleshooting" = "Troubleshooting.md"},
+    {"EULA" = "EULA.md"},
+]
+
+[project.theme]
+font.text = "Poppins"
+logo = "assets/favicon.ico"
+favicon = "assets/favicon.ico"
+features = [
+    "content.code.copy",
+    "navigation.footer",
+]
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
