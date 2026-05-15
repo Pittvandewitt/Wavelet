@@ -1,5 +1,3 @@
-_site
-Gemfile.lock
-.bundles_cache
+/.cache
+/site
 /venv
-site

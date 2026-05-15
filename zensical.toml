@@ -9,10 +9,10 @@ docs_dir = "docs"
 copyright = "Wavelet maintained by <a href=https://github.com/Pittvandewitt>Pittvandewitt</a>"
 extra_css = ["stylesheets/extra.css"]
 nav = [
-    {"Configuration" = "Configuration.md"},
     {"Features" = "Features.md"},
-    {"Import" = "Import.md"},
     {"Settings" = "Settings.md"},
+    {"Configuration" = "Configuration.md"},
+    {"Import" = "Import.md"},
     {"Troubleshooting" = "Troubleshooting.md"},
     {"EULA" = "EULA.md"},
 ]
