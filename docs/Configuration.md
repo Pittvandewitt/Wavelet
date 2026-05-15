@@ -27,7 +27,7 @@ Some music players require additional configuration to support audio processing.
 ## VLC
 - Select the 'More' tab in the bottom navigation
 - Press Settings in the top left corner
-- Under extra settings, press 'Audio' - Audio output
+- Under Extra settings, press 'Advanced' - scroll to Performance - press 'Audio output'
 - Select AudioTrack
 
 This list is exhaustive. Suggestions are welcome.
